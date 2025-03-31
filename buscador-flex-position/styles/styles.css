@@ -1,0 +1,28 @@
+#bisabuelo-cabecera{
+    border: 1px solid black;
+    padding: 40px;
+    margin: 0;
+}
+
+.abuelos-flex{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#padre-logo {
+    border: 1px solid green;
+    padding: 10px;
+    width: 10%;
+}
+
+#padre-buy{
+    border: 1px solid blue;
+}
+
+#padre-signup{
+    border: 1px solid yellow;
+}
+
+#padre-prices{
+    border: 1px solid purple;
+}
