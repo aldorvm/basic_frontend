@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <div id="form">
+        <h1>Formulario de compra</h1>
+        <div class="column">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="column">
+            <label for="description">Descripción</label>
+            <textarea name="description" id="description" rows="3" cols="40" required></textarea>
+        </div>
+        <div class="column">
+            <label for="price">Precio</label>
+            <input type="number" id="price" name="price" required>
+        </div>
+        <div class="column">
+            <label for="items">Número de items</label>
+            <input type="number" id="items" name="items" required>
+        </div>
+        <div class="column" id="submit">
+            <button type="submit" id="add" onclick="adding()">AÑADIR</button>
+            <button type="reset" id="cancel">CANCELAR</button>
+        </div>
+    </div>
+    <div id="form">
+        <h1>Tu cesta</h1>
+        <div id="cart">
+        </div>
+        <div class="column" id="submit">
+            <button type="submit" id="buy">COMPRAR</button>
+            <button type="reset" id="clear">VACIAR CARRITO</button>
+        </div>
+    </div>
+</body>
+
+</html>
