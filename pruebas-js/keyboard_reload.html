@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado y recarga</title>
+</head>
+
+<body>
+    <!-- Evento onkeydown -->
+    <textarea onkeydown="alert('Se ha pulsado una tecla')" placeholder="Presiona una tecla"></textarea>
+    <!-- Evento onkeyup -->
+    <input type="text" onkeyup="alert('Se ha liberado una tecla')" placeholder="Libera una tecla">
+
+    <br><br><br>
+
+    <!-- Usando un elemento de imagen para el evento onload -->
+    <img src="/assets/google.jpg" alt="imagen google" onload="alert('La imagen se ha cargado correctamente')"
+        onerror="alert('Error al cargar la imagen')">
+
+    <br><br><br>
+
+
+    <p>Clic aquí</p>
+    <script>
+        // Seleccionamos el párrafo y le agregamos un evento de clic
+        var parrafo = document.querySelector("p");
+        parrafo.addEventListener("click", function () {
+            alert("¡Hola Mundo!");
+        });
+    </script>
+
+    <!-- 
+· var parrafo = document.querySelector("p");: Esta línea de código selecciona el primer elemento <p> (párrafo) que encuentra en 
+    el documento HTML y lo asigna a la variable parrafo. document.querySelector() es un método que permite seleccionar un elemento 
+    HTML utilizando un selector CSS.
+
+· parrafo.addEventListener("click", function() { ... });: Esta línea de código agrega un «escuchador de eventos» al elemento <p>. 
+    Escucha el evento de clic en el elemento y ejecuta la función proporcionada como segundo argumento cuando se produce el evento. 
+    En este caso, la función anónima function() { ... } se ejecutará cuando se haga clic en el párrafo.
+
+· alert("¡Hola Mundo!");: Dentro de la función anónima, se llama a la función alert(), que muestra una ventana emergente en el navegador 
+con el mensaje «¡Hola Mundo!». Por lo tanto, cuando se hace clic en el párrafo, se mostrará una ventana emergente con este mensaje. 
+-->
+
+
+</body>
+
+</html>
