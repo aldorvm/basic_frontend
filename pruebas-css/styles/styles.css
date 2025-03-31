@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* anidado */
+#parte2{
+    h1 {
+        color: red;
+        font-size: 20px;
+        text-decoration: underline;
+        font-variant: small-caps;
+        /* &#header1 {
+            color: green;
+        } */
+    }
+    #subparagraph2{
+        color: grey;
+    }
+}
+
+#parte2 > h1:first-child {
+    color: blue;
+}
+
+#parte1, #parte2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
