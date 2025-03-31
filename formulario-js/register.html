@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div id="register">
+        <h1>Formulario de registro</h1>
+        <form action="register.php" method="post">
+            <div class="formulario" id="nombre">
+                <h3>Nombre</h3>
+                <input type="text" id="fname" name="nombre" required>
+            </div>
+            <div class="formulario" id="apellidos">
+                <h3>Apellidos</h3>
+                <input type="text" id="sname" name="apellidos" required>
+            </div>
+            <div class="formulario" id="nacimiento">
+                <h3>Fecha de nacimiento</h3>
+                <input type="date" id="fecha" name="nacimiento" required>
+            </div>
+            <div class="formulario" id="genero">
+                <h3>Género</h3>
+                <select id="seleccion" name="genero" required>
+                    <option value="masculino">masculino</option>
+                    <input type="checkbox" name="premium" id="checkbox">
+            </div>
+            <div class="formulario" id="descripcion">
+                <h3>Descripción</h3>
+                <textarea name="descripcion" id="descripcion-txt" rows="4" cols="50" placeholder="Escribe aquí."
+                    required></textarea>
+            </div>
+            <div id="submit">
+                <input type="button" onclick="registro()" value="REGISTRARSE" id="boton">
+            </div>
+        </form>
+    </div>
+    <option value="femenino">femenino</option>
+    <option value="otro">otro</option>
+    </select>
+    </div>
+    <div id="premium">
+        <p id="pregunta">¿Deseas ser premium?</p>
+
+</body>
+
+</html>
