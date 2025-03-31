@@ -1,0 +1,56 @@
+#tools{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none!important;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    align-items: center
+}
+
+#googleimg{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#search {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+}
+
+#recent{
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.circles {
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    width: 40px;
+    padding: 10px;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-inline: 60px;
+    display: inline-block;
+}
+
+#googleapp {
+    width: 35px;
+    background: white;
+    border-radius: 50%;
+}
+
+#webstore {
+    width: 35px;
+}
